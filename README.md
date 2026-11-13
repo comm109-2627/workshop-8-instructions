@@ -470,9 +470,12 @@ From now on, add new methods to `python_turtle.py` and use `week8_task8.py` (or 
 
 Add these to `python_turtle.py`:
 
-- Add a method `.backward(self, distance)`
-- Add a method `.goto(self, x, y)` that can be used to send the turtle to a given x, y coordinate
-- Add a method `.square(self, size)` that draws a square of a given size
-- Add a method `.rectangle(self, width, height)` that draws a star of a given size
-- Add a method `.spiral(self, n, stepsize)` that draws a spiral with the given number of rotations, which moves outwards by the stepsize as it travels
-- Add a method `.circle(self, radius)` that draws an (approximate?) circle path of a given radius, starting from the current position
+- Add a method `.backward(self, distance)` use it to make a + shape drawing.
+- Add a method `.goto(self, x, y)` that can be used to send the turtle to a given x, y coordinate. Use it to make a drawing of the letter W.
+- Add a method `.rectangle(self, width, height)` that draws a rectangle of a given width and height.
+- Add a method `.square(self, size)` that draws a square of a given size and draw an example picture.
+- Add a method `.polygon(self, n_sides, size)` that draws a regular polygon of an shape.
+- Add a method `.circle(self, radius)` that draws an (approximate?) circle path of a given radius, starting from the current position.
+- Add a method `.spiral(self, n, stepsize)` that draws a spiral with the given number of rotations, which moves outwards by the stepsize as it travels.
+
+**Hint** some of these methods can be reused. For example consider how a square is a special case for a rectangle, and as we increase the number of sides in a regular polygon the shape starts to resemble a circle.
